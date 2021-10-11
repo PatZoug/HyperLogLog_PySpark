@@ -20,3 +20,5 @@ This requires installing Pytest ($pip install pytest). To use pyspark, we also u
 
 ==========================================================================
 The papers mentions a further improvement of HyperLogLog algorithm, based on the observation that the hashmap is sparse when estimating small cardinalities. For low orders, we then replace the hashmap as a list by a key-pair mapping. This improvement aims at reducing the memory usage. In addition to the sparse hmap, It requires to go down at the bit level to use only the minimum require number of bits (otherwise we have no control over the memory usage). However,  Python is a high level language that doesn't allow such low level memory management.
+
+test
